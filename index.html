@@ -3,10 +3,15 @@
 
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="menu.css" />
     <link
         href="https://fonts.googleapis.com/css2?family=Bangers&family=Black+Ops+One&family=Creepster&family=La+Belle+Aurore&family=MedievalSharp&family=Orbitron&family=Rye&display=swap"
         rel="stylesheet">
+        <link
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+        rel="stylesheet">
+
+        
     <script src="index.js"></script>
 </head>
 
@@ -22,6 +27,37 @@
     <p>Please connect with me on <a href="https://www.linkedin.com/in/bhuvaneshrm/">Linkedin here</a></p>
     <input type="email" placeholder="Enter your email ">
     <button>Join my Newsletter</button>
+
+    <div id="circularMenu" class="circular-menu">
+
+        <a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
+          <i class="fa fa-plus"></i>
+        </a>
+      
+        <menu class="items-wrapper">
+          <a href="#" class="menu-item fa fa-facebook"></a>
+          <a href="#" class="menu-item fa fa-twitter"></a>
+          <a href="#" class="menu-item fa fa-google-plus"></a>
+          <a href="#" class="menu-item fa fa-linkedin"></a>
+        </menu>
+      
+      </div>
+      
+      
+      <div id="circularMenu1" class="circular-menu circular-menu-left active">
+      
+        <a class="floating-btn" onclick="document.getElementById('circularMenu1').classList.toggle('active');">
+          <i class="fa fa-bars"></i>
+        </a>
+      
+        <menu class="items-wrapper">
+          <a href="#" class="menu-item fa fa-home"></a>
+          <a href="#" class="menu-item fa fa-user"></a>
+          <a href="#" class="menu-item fa fa-pie-chart"></a>
+          <a href="#" class="menu-item fa fa-cog"></a>
+        </menu>
+      
+      </div>
 </body>
 
 </html>

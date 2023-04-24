@@ -11,13 +11,10 @@
     --font: var(--regular);
     --sharp: 0;
     --soft: 10px;
-    --round: 100px;
-    
-    --image: var(--soft);
-    
+    --round: 100px; 
+    --image: var(--soft);   
     --background: #f5f5f5;
-    --text: #222222;
-    
+    --text: #222222;   
     --light: var(--background);
     --dark: var(--text);
 }
